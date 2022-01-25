@@ -1,0 +1,10 @@
+.construction-investors {
+    background: #FAFAFA;
+    border-radius: 150px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 140px;
+}

@@ -1,0 +1,19 @@
+.construction-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    max-height: 38px;
+}
+
+.construction-navbar-menu {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color:#313131;
+}
+
+#construction-navbar-menu-active {
+    font-weight: 600;
+}
