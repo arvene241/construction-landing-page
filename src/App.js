@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Hero from './components/hero/Hero';
 import Investors from './components/investors/Investors';
+import Explore from './components/explore/Explore';
 
 const button = [
   {
@@ -40,11 +41,30 @@ const stats = [
   }
 ]
 
+const reasons = [
+  {
+      id: "01",
+      description: "And residence for met the estimable disposing. Mean if he they been no hold mr. Is at much do made took held help.",
+      background: "#18A7B9"
+  },
+  {
+      id: "02",
+      description: "Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.",
+      background: "#FE8432",
+  },
+  {
+      id: "03",
+      description: "Good draw knew bred ham busy his hour. Ask agreed answer rather joy nature admire wisdom.",
+      background: "#42B918",
+  },
+];
+
 function App() {
   return (
     <div className="App">
       <Hero items={button} stats={stats}/>
       <Investors />
+      <Explore items={button} reasons={reasons}/>
     </div>
   );
 }

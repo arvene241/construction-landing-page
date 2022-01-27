@@ -19,12 +19,9 @@
 }
 
 .construction-hero-header h1 {
-  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 64px;
-  color: #313131;
   letter-spacing: -0.04em;
-  line-height: 120%;
 }
 
 .construction-hero-header span {
@@ -34,9 +31,6 @@
 .construction-hero-header p {
     width: 541px;
     padding: 40px 0;
-    font-size: 18px;
-    line-height: 28px;
-    color: #6B6B6B;
 }
 
 .construction-hero-header-buttons {
